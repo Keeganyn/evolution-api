@@ -1,7 +1,7 @@
 services:
   api:
     container_name: evolution_api
-    image: evolution/api:local
+    image: evolution/api:latest
     build: .
     restart: always
     ports:
